@@ -345,12 +345,9 @@ printf("\n");
     }else{
         printf("Matriz não singular\n\n", setlocale(LC_ALL,""));
     }
-    if(det < 0){
-        det *= (-1);
         printf("Determinante = %d\n", det);
-    }else{
-        printf("Determinante = %d\n", det);
-    }
+    
+    
 
     printf("\n");
         printf("Repetir? (s/n)?\n\n");
